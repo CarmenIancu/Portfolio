@@ -100,8 +100,8 @@ export const projects = [
     id: 11,
     title: 'Smart-Brain',
     content: 'Face-recognition APP using Clarifai API. Registered users saved in a database.',
-    page: 'https://immense-savannah-10514.herokuapp.com/',
-    repo: 'https://github.com/CarmenIancu/smartbrain',
+    page: 'https://facerecognitionbrain-123.herokuapp.com/',
+    repo: 'https://github.com/CarmenIancu/facerecognitionbrain',
     image: smartbrain,
     skills: ['React']
   },
