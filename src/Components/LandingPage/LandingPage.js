@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
+import Name from '../Name/Name';
 import Links from '../Links/Links';
 import './LandingPage.css'
 
