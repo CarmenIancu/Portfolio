@@ -99,7 +99,7 @@ export const projects = [
    {
     id: 11,
     title: 'Smart-Brain',
-    content: 'Face-recognition APP. Uses Clarifai API. Code-along course The Complete Web Developer, ZTM.',
+    content: 'Face-recognition APP. Code-along course The Complete Web Developer, ZTM.',
     page: 'https://facerecognitionbrain-123.herokuapp.com/',
     repo: 'https://github.com/CarmenIancu/facerecognitionbrain',
     image: smartbrain,
