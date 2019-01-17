@@ -10,7 +10,7 @@ import lucas from '../../images/lucas.jpg';
 //import swapi from '../../images/swapi.jpg';
 import smartbrain from '../../images/smartbrain.jpg';
 
-export const projects = [
+const projects = [
  {
     id: 1,
     title: 'Lucas the Entertainer',
@@ -106,6 +106,8 @@ export const projects = [
     skills: ['React']
   },
 ];
+
+export default projects;
 
 
 
