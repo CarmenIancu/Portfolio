@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import CardList from '../Components/CardList/CardList';
-import {projects} from '../Components/ProjectList/ProjectsList';
 import LandingPage from '../Components/LandingPage/LandingPage';
 import Contact from '../Components/Contact/Contact';
 import Skills from '../Components/Skills/Skills';
@@ -15,7 +14,7 @@ class App extends Component {
       <div className='App'>
         <LandingPage />
        	<Skills />
-        <CardList projects={projects} />
+        <CardList />
        	<Contact />
        	<Footer />
         <ScrollUpButton />
