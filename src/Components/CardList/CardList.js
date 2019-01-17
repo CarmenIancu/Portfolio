@@ -1,24 +1,14 @@
 import React from 'react';
 import Card from '../Card/Card';
+import projectsData from '../ProjectList/ProjectsList';
 
-const CardList = ({projects}) => {
-const CardComponent = projects.map((project,i) => {
-	return (
-		<Card 
-		key={i} 
-		id={projects[i].id} 
-		title={projects[i].title} 
-		content={projects[i].content}
-		page={projects[i].page}
-		repo={projects[i].repo}
-		image={projects[i].image}
-		skills={projects[i].skills}
-		/>
-		)
-})
+
+function CardList () {
+	const componentArray = projectsData.map(item => <Card key={item.id} project={item}/>)
+
 	return (
 		<div id='projects' className='f3 tc b'>
-				{CardComponent}
+				{componentArray}
 		</div>
 	);
 }
